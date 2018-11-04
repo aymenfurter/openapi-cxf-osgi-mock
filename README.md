@@ -18,6 +18,7 @@ To run the example on Apache Karaf or Talend ESB Open Source Version >7.1.1
 	# Download TOS 7.1.1 and put it as 'tos.zip' into the talend-docker directory.
 	$ docker build . -t tos-beta
 After building the TOS 7.1.1 Base Image, you now can build and start the TOS 7.1.1 Runtime like this:
+
 	$ git clone https://github.com/aymenfurter/openapi-cxf-osgi-mock
 	$ mvn clean package -DskipTests && docker build . -t intgr1 && docker run -p 8040:8040 -a stdin -a stdout -it intgr1
 
