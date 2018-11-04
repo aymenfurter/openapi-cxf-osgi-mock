@@ -9,9 +9,6 @@
 	<cm:property-placeholder
 		persistent-id="ch.aymenfurter.integration" update-strategy="reload">
 		<cm:default-properties>
-			<cm:property name="restEndpoint"
-				value="cxfrs:bean:petStoreServiceServer?bindingStyle=SimpleConsumer" />
-			<cm:property name="apiRootUrl" value="/api" />
 		</cm:default-properties>
 	</cm:property-placeholder>
 
