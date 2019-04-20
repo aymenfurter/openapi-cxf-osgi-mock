@@ -1,4 +1,4 @@
-FROM tos-beta
+FROM reg.x0r.sh/tos-beta
 MAINTAINER Aymen Furter <aymen.furter@gmail.com>
 
 ENV USER trun
